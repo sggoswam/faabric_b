@@ -1,5 +1,5 @@
 #include <faabric/util/environment.h>
-
+#include <stdexcept>
 #include <thread>
 
 namespace faabric::util {
