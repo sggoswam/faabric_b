@@ -1,5 +1,5 @@
 #include <faabric/state/DummyStateServer.h>
-
+#include <stdexcept>
 #include <faabric/state/InMemoryStateKeyValue.h>
 #include <faabric/util/logging.h>
 #include <faabric/util/network.h>
