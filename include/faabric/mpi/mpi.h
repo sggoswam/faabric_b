@@ -70,11 +70,11 @@ extern "C"
         int worldId;
         int rank;
         int size;
-#ifdef __wasm__
+//#ifdef __wasm__
         int wasmPtr;
-#else
-    void* basePtr;
-#endif
+//#else
+//    void* basePtr;
+//#endif
         int dispUnit;
     };
 
