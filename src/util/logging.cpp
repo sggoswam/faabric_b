@@ -7,7 +7,7 @@
 namespace faabric::util {
 static std::unordered_map<std::string, std::shared_ptr<spdlog::logger>> loggers;
 
-static void initLogging(const std::string& name)
+/*static void initLogging(const std::string& name)
 {
     SystemConfig& conf = faabric::util::getSystemConfig();
 
@@ -47,7 +47,7 @@ static void initLogging(const std::string& name)
           fmt::format("Error initializing {} logger: {}", name, e.what()));
     }
 }
-
+*/
 std::shared_ptr<spdlog::logger> getLogger(const std::string& name)
 {
     // Lazy-initialize logger
