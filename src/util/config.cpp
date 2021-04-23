@@ -76,7 +76,7 @@ void SystemConfig::initialise()
     endpointHost = getEnvVar("ENDPOINT_HOST", "");
     endpointPort = this->getSystemConfIntParam("ENDPOINT_PORT", "8080");
     endpointNumThreads =
-      this->getSystemConfIntParam("ENDPOINT_NUM_THREADS", "4");
+      this->getSystemConfIntParam("ENDPOINT_NUM_THREADS", "8");
 
     if (endpointHost.empty()) {
         // Get the IP for this host
