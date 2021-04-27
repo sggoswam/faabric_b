@@ -2,6 +2,7 @@
 
 #include <faabric/util/clock.h>
 #include <string>
+#define TRACE_ALL
 
 #ifdef TRACE_ALL
 #define PROF_START(name)                                                       \
